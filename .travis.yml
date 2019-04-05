@@ -1,9 +1,19 @@
 language: python
+
 python:
+<<<<<<< HEAD
   - "3.4"
+=======
+  - "3.4"
+>>>>>>> 55b51db746c219e34b42e5305077e37434389c7d
 
 before_script:
   - cd src
 
 script:
   - python testes.py
+
+notifications:
+  email:
+    recipients:
+    - julio.silva@aluno.faculdadeimpacta.com.br
