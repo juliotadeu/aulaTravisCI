@@ -1,7 +1,15 @@
 language: python
+
 python:
   - "3.4”
+
 before_script:
   - cd src
+
 script:
   - python testes.py
+
+notifications:
+  email:
+    recipients:
+    - julio.silva@aluno.faculdadeimpacta.com.br
