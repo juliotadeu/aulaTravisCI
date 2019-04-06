@@ -5,7 +5,6 @@ def inicializar():
         for j in range(3):
             linha.append(".") # alterado de 'X' para '.'
         tab.append(linha)
-    
     return tab
 
     def main():
