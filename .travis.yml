@@ -8,8 +8,3 @@ before script:
 
 script:
 - python testes.py
-
-notifications:
-  email:
-    recipients:
-    - julio.silva@aluno.faculdadeimpacta.com.br
